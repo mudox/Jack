@@ -1,0 +1,28 @@
+[package]
+edition = "2018"
+version = "0.1.0"
+
+name = "jack"
+description = "Shell logging kit"
+
+authors = ["Mudox <imudox@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# cli
+clap = "3.0.0-beta.2"
+
+# file system
+dirs = "3.0.2"
+
+# config
+serde = { version = "1.0.126", features = ["derive"] }
+toml = "0.5.8"
+
+# ui
+termion = "1.5.6"
+
+[dev-dependencies]
+pretty_assertions = "0.7.2"
+
