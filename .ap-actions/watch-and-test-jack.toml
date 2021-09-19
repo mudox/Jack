@@ -1,6 +1,6 @@
-icon = " "
+icon = " "
 
 # required
-title = "Watch & run test-jack.zsh"
+title = "Watch & test `jack` command"
 
 # description = ""
