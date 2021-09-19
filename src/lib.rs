@@ -1,4 +1,4 @@
-pub mod config;
+mod config;
 
 mod core;
-pub use crate::core::print;
+pub use crate::core::{print, progress};
